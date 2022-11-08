@@ -187,12 +187,12 @@ joe.scope();
 Student.prototype.scopeArrow = () => console.log(this);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// joe.scopeArrow();
+joe.scopeArrow();
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+//    A student object
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+//    a window object
 // 3. Explain why "this" is different when an arrow function is used.
-//
+//    because the this is not enclosed so its referring to the global this the window
